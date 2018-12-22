@@ -1,0 +1,1 @@
+youtube-dl --embed-thumbnail --verbose -x --audio-format mp3 %s --exec "cat {} > %s && rm {}"
